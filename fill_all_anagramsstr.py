@@ -27,4 +27,4 @@ class Solution(object):
         return indexes
 
 my = Solution()
-print(my.findAnagrams("cbaebabacd", "abc")) 
+print(my.findAnagrams("cbaebacd", "abc")) 
