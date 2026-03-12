@@ -12,15 +12,29 @@
 #         for k,m in dic.items():
 #             count += m
 
+# class Solution:
+#     def removeDuplicates(self, nums) -> int:
+#         s_list = []
+#         n= len(nums)
+#         for i in range(n):
+#             if s_list.count(nums[i]) <= 2:
+#                 s_list.append(nums[i])
+#             del nums[i]
+#         return len(s_list),s_list
 class Solution:
     def removeDuplicates(self, nums) -> int:
-        s_list = []
-        n= len(nums)
-        for i in range(n):
-            if s_list.count(nums[i]) <= 2:
-                s_list.append(nums[i])
-            del nums[i]
-        return len(s_list),s_list
+        if not nums:
+            return 0
+      
+        insert_pos = 2  
+
+        for i in range(2, len(nums)):
+           
+            if nums[i] != nums[insert_pos - 2]:
+                nums[insert_pos] = nums[i]
+                insert_pos += 1
+        
+        return insert_pos
  
 
 my = Solution()
