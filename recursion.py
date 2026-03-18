@@ -22,3 +22,18 @@
 #     return num(n-1)
 # num()
 
+
+# def summ(n=3,sum=0):
+#     if n < 1:
+#         print(sum)
+#         return
+#     else:return summ(n-1,sum+n)
+# summ()  
+
+def facti(n):
+    if n == 0:
+        return 1
+    else:
+        return n*(facti(n-1))
+print(facti(5))
+
