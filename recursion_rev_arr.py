@@ -6,7 +6,7 @@ def rev_ar(ar,l,r):
         ar[r] = ar[l]
         ar[l] = temp
         return rev_ar(ar,l+1,r-1)
-ar = [1,2,3,4,5]
+ar = [6,2,4,9,8]
 print(rev_ar(ar,0,len(ar)-1))
     
 def rev_ar(ar, l, r):
