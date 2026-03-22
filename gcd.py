@@ -36,4 +36,4 @@ class Solution:
         else:return even
         
 my = Solution()
-print(my.gcdOfOddEvenSums(4))
+print(my.gcdOfOddEvenSums(7))
