@@ -38,4 +38,4 @@ class Solution:
  
 
 my = Solution()
-print(my.removeDuplicates([0,0,1,1,1,1,2,3,3]))
+print(my.removeDuplicates([0,0,1,1,1,2,3,3]))
