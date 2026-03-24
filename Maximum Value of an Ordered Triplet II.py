@@ -11,4 +11,4 @@ class Solution:
              return -1
         return max_t
 maxi = Solution()
-print(maxi.maximumTripletValue([1,2,3]))
+print(maxi.maximumTripletValue([3,2,1]))
