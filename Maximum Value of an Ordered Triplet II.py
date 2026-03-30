@@ -1,5 +1,5 @@
 class Solution:
-    def maximumTripletValue(self, nums) -> int:
+    def maximumTripletValue(self, nums):
         l = 0
         r = len(nums)-1
         max_t = 0
