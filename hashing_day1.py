@@ -3,7 +3,7 @@ def hashing_check(arr_in):
     has = [0]*13
     for i in lis:
         has[i] +=1
-    ch = int(input("enter count no to check there frequency:"))
+    ch = int(input("enter count no to check there frequency's:"))
     lis_c = [int(input(f"no's {i}")) for i in range(ch)]
     li = []
     for che in lis_c:
