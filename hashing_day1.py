@@ -15,4 +15,4 @@ def hashing_check(arr_in):
     return li
 
 
-print(hashing_check(5))s
+print(hashing_check(5))
