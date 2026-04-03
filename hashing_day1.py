@@ -8,11 +8,11 @@ def hashing_check(arr_in):
     li = []
     for che in lis_c:
         if 0 <= che < len(has):
-            li.append(f"{che} count {has[che]}")
+            li.append(f"{che} count as {has[che]}")
         else:
             li.append(f"{che} not in range")
     
     return li
 
 
-print(hashing_check(5))
+print(hashing_check(5))s
