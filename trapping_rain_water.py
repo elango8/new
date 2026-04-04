@@ -16,4 +16,4 @@ def trap(height):
             r -= 1  
     return total
 
-print(trap([0,1,0,2,1,0,1,3,2,1,2,1]))
+print(trap([0,1,0,2,1,3,0,1,3,2,1,2,1]))
