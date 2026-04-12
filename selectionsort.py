@@ -9,4 +9,4 @@ class Solution:
         return nums
 
 my = Solution()
-print(my.selectionSort([7, 4, 1, 5, 3]))
+print(my.selectionSort([7, 4, 0, 5, 3]))
