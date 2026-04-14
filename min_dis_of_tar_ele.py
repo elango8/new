@@ -1,5 +1,5 @@
 class Solution:
-    def getMinDistance(self, nums: List[int], target: int, start: int) -> int:
+    def getMinDistance(self, nums, target: int, start: int) -> int:
         min_distance = float('inf')
         for i in range(len(nums)):
             if nums[i] == target:
