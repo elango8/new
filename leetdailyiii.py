@@ -20,7 +20,7 @@ class Solution:
                             
                             if quer == dict:
                                 break
-                            else:
+                            
 
 queries = ["word","note","ants","wood"]
 dictionary = ["wood","joke","moat"]
