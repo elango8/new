@@ -4,8 +4,8 @@
 #         self.val = val
 #         self.next = next
 class Solution:
-    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        dummy = ListNode(-1)
+    def mergeTwoLists(self, list1, list2):
+        dummy =-1
         tail = dummy
 
         # Traverse both lists
